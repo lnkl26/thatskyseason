@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat;
     height: auto;
     font-family: "Gamja Flower", sans-serif;
+    font-size: 15px;
 }
 
 h1 {
@@ -20,17 +21,31 @@ h1 {
 header {
     background-color: #fff;
     border-radius: 35px;
-    margin: 5em;
+    margin: 2.5em;
     padding: 1em;
     display: flex;
+    justify-content: center;
+    gap: 2.5em;
+    font-size: 15px;
+    color: #5263c0;
+}
+
+header p:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: #6f82f5;
+    background: -webkit-linear-gradient(#6f82f5, rgb(250, 191, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .information {
     background-color: #fff;
     border-radius: 35px;
-    margin-left: 5em;
-    margin-right: 5em;
-    margin-bottom: 5em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    margin-bottom: 2.5em;
     padding: 2.5em;
     text-align: center;
 }
