@@ -59,6 +59,31 @@ header p:hover {
     color: #5263c0;
 }
 
+.main-team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-team-person img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.main-team-person a {
+    color: #5263c0;
+    text-decoration: none;
+}
+
+.main-team-person a:hover {
+    background: -webkit-linear-gradient(#6f82f5, rgb(250, 191, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .bean-wardrobe {
     background-color: #fff;
     border-radius: 35px;
