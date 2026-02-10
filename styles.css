@@ -1,0 +1,70 @@
+/* .gamja-flower-regular {
+  font-family: "Gamja Flower", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+body {
+    background-image: linear-gradient(to bottom right, #6f82f5, rgb(250, 191, 255), #6f82f5);
+    background-repeat: no-repeat;
+    height: auto;
+    font-family: "Gamja Flower", sans-serif;
+}
+
+h1 {
+  background: -webkit-linear-gradient(#6f82f5, rgb(250, 191, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header {
+    background-color: #fff;
+    border-radius: 35px;
+    margin: 5em;
+    padding: 1em;
+    display: flex;
+}
+
+.information {
+    background-color: #fff;
+    border-radius: 35px;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 5em;
+    padding: 2.5em;
+    text-align: center;
+}
+
+.information p {
+    color: #5263c0;
+}
+
+.information mark {
+    background-color: rgb(250, 191, 255);
+    color: #5263c0;
+}
+
+.bean-wardrobe {
+    background-color: #fff;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bean-wardrobe-item {
+    margin: 1em;
+    width: 250px;
+}
+
+.bean-wardrobe-item img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5em;
+}
