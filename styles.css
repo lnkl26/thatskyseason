@@ -141,6 +141,29 @@ header button:hover {
     height: auto;
 }
 
+#season-archive-section {
+    display: none;
+}
+
+.seasons-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.season p {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    display: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.season button {
+    background-color: #fff;
+    border: none;
+}
+
 #placeholder-section {
     visibility: hidden;
 }
