@@ -7,7 +7,7 @@
 body {
     background-image: linear-gradient(to bottom right, #6f82f5, rgb(250, 191, 255), #6f82f5);
     background-repeat: no-repeat;
-    height: auto;
+    min-height: 100vh;
     font-family: "Gamja Flower", sans-serif;
     font-size: 15px;
 }
@@ -23,14 +23,22 @@ header {
     border-radius: 35px;
     margin: 2.5em;
     padding: 1em;
+    position: fixed;
     display: flex;
     justify-content: center;
-    gap: 2.5em;
-    font-size: 15px;
-    color: #5263c0;
+    gap: 1em;
+    box-shadow: 5px 10px 5px #242c5a8c;
 }
 
-header p:hover {
+header button {
+    font-family: "Gamja Flower", san-serif;
+    font-size: 15px;
+    color: #5263c0;
+    border: none;
+    background-color: #fff;
+}
+
+header button:hover {
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-decoration-color: #6f82f5;
@@ -43,9 +51,7 @@ header p:hover {
 .information {
     background-color: #fff;
     border-radius: 35px;
-    margin-left: 2.5em;
-    margin-right: 2.5em;
-    margin-bottom: 2.5em;
+    margin: 2.5em;
     padding: 2.5em;
     text-align: center;
 }
@@ -57,6 +63,10 @@ header p:hover {
 .information mark {
     background-color: rgb(250, 191, 255);
     color: #5263c0;
+}
+
+#meet-the-team-section {
+    display: none;
 }
 
 .main-team {
@@ -109,6 +119,10 @@ header p:hover {
     -webkit-text-fill-color: transparent;
 }
 
+#bean-wardrobe-section {
+    display: none;
+}
+
 .bean-wardrobe {
     background-color: #fff;
     border-radius: 35px;
@@ -127,9 +141,18 @@ header p:hover {
     height: auto;
 }
 
+#placeholder-section {
+    visibility: hidden;
+}
+
 footer {
-    color: #fff;
+    background-color: #fff;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
     display: flex;
     justify-content: center;
-    margin-bottom: 2.5em;
+    color: #5263c0;
 }
