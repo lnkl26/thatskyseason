@@ -84,6 +84,31 @@ header p:hover {
     -webkit-text-fill-color: transparent;
 }
 
+.assistants-team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.assistants-team-person img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.assistants-team-person a {
+    color: #5263c0;
+    text-decoration: none;
+}
+
+.assistants-team-person a:hover {
+    background: -webkit-linear-gradient(#6f82f5, rgb(250, 191, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .bean-wardrobe {
     background-color: #fff;
     border-radius: 35px;
