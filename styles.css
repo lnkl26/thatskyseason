@@ -162,6 +162,11 @@ header button:hover {
 .season button {
     background-color: #fff;
     border: none;
+    cursor: pointer;
+}
+
+.artist-spirits img {
+    width: 350px;
 }
 
 #placeholder-section {
@@ -178,4 +183,102 @@ footer {
     display: flex;
     justify-content: center;
     color: #5263c0;
+}
+
+/* CREATIVITY HTML */
+.header-img {
+    display: flex;
+    justify-content: center;
+}
+
+#creativity-header-img {
+    margin-top: 10em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    min-width: 350px;
+    width: auto;
+    border-radius: 35px;
+}
+
+.two-column {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.creativity-content {
+    background-color: #fff;
+    border-radius: 35px;
+    margin-top: 1em;
+    padding: 1em;
+    min-width: 450px;
+}
+
+.creativity-content h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.creativity-content p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#creativity-intro {
+    max-width: 45%;
+}
+
+.intro-img {
+    display: flex;
+    justify-content: center;
+}
+
+#creativity-intro-img {
+    padding-left: 1em;
+    padding-right: 1em;
+    min-width: 450px;
+    max-width: 1600px;
+}
+
+#creativity-spirits {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 450px;
+}
+
+.artists-and-spirits img {
+    width: 300px;
+}
+
+.desc-img-column {
+    columns: 2 auto;
+}
+
+.desc-img-column h2 {
+    margin-top: 2.5em;
+    margin-left: 2.5em;
+    padding-left: 2.5em;
+}
+
+.desc-img-column p {
+    margin-left: 2.5em;
+    padding-left: 5em;
+    text-align: left;
+}
+
+.img-desc-column {
+    columns: 2 auto;
+}
+
+.img-desc-column h2 {
+    margin-top: 2.5em;
+}
+
+.img-desc-column p {
+    text-align: left;
 }
