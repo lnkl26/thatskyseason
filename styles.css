@@ -168,10 +168,6 @@ header button:hover {
     width: 100%;
 }
 
-#imagetoolong img {
-    width: 50%;
-}
-
 .season-desc {
     padding: 1.5vw;
 }
@@ -259,6 +255,10 @@ footer {
         height: 150px;
         width: 150px;
     }
+
+    #imagetoolong img {
+        width: 50%;
+    }
 }
 
 /* styling for desktop devices */
@@ -298,7 +298,15 @@ footer {
     }
 
     .information p {
-        font-size: 20px;
+        font-size: 25px;
+    }
+
+    .information li {
+        font-size: 25px;
+    }
+
+    .information b {
+        font-size: 25px;
     }
 
     .main-team-person {
@@ -320,89 +328,40 @@ footer {
         margin-left: 2vw;
         margin-right: 2vw;
     }
-}
 
-/* CREATIVITY HTML */
+    #emblem {
+        margin-top: 5vw;
+        width: 350px;
+        height: 350px;
+    }
 
-.two-column {
-    margin-left: 2.5em;
-    margin-right: 2.5em;
-    display: none;
-    flex-wrap: wrap;
-}
+    .season-desc {
+        display: flex;
+    }
 
-.creativity-content {
-    background-color: #fff;
-    border-radius: 35px;
-    margin-top: 1em;
-    padding: 1em;
-    min-width: 450px;
-}
+    .season-desc-text {
+        padding-right: 5vw;
+    }
 
-.creativity-content h1 {
-    display: flex;
-    justify-content: center;
-}
+    .season-desc img {
+        width: 500px;
+        height: 500px;
+    }
 
-.creativity-content p {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
-}
+    .artists-n-spirits {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-#creativity-intro {
-    max-width: 45%;
-}
+    .spirit-image {
+        width: 20%;
+    }
 
-.intro-img {
-    display: flex;
-    justify-content: center;
-}
+    #imagetoolong {
+        width: 20%;
+    }
 
-#creativity-intro-img {
-    padding-left: 1em;
-    padding-right: 1em;
-    min-width: 450px;
-    max-width: 1600px;
-}
-
-#creativity-spirits {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 450px;
-}
-
-.artists-and-spirits img {
-    width: 300px;
-}
-
-.desc-img-column {
-    columns: 2 auto;
-}
-
-.desc-img-column h2 {
-    margin-top: 2.5em;
-    margin-left: 2.5em;
-    padding-left: 2.5em;
-}
-
-.desc-img-column p {
-    margin-left: 2.5em;
-    padding-left: 5em;
-    text-align: left;
-}
-
-.img-desc-column {
-    columns: 2 auto;
-}
-
-.img-desc-column h2 {
-    margin-top: 2.5em;
-}
-
-.img-desc-column p {
-    text-align: left;
+    .system-desc img {
+        width: 15%;
+    }
 }
