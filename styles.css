@@ -21,6 +21,17 @@ mark {
     color: #5263c0;
 }
 
+a {
+    color: #5263c0;
+    text-decoration: none;
+}
+
+a:hover {
+    background: -webkit-linear-gradient(#6f82f5, rgb(250, 191, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 header button:hover {
     text-decoration: underline;
     text-decoration-thickness: 1px;
@@ -28,10 +39,6 @@ header button:hover {
     background: -webkit-linear-gradient(#6f82f5, rgb(250, 191, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-#meet-the-team-section {
-    display: none;
 }
 
 .main-team {
@@ -82,6 +89,36 @@ header button:hover {
     background: -webkit-linear-gradient(#6f82f5, rgb(250, 191, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.bean-wardrobe {
+    background-color: #fff;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bean-wardrobe-item {
+    margin: 1vw;
+    width: 250px;
+}
+
+.bean-wardrobe-item img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #fff;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    color: #5263c0;
 }
 
 /* styling for mobile devices */
@@ -193,27 +230,7 @@ header button:hover {
     }
 }
 
-#bean-wardrobe-section {
-    display: none;
-}
 
-.bean-wardrobe {
-    background-color: #fff;
-    border-radius: 35px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.bean-wardrobe-item {
-    margin: 1em;
-    width: 250px;
-}
-
-.bean-wardrobe-item img {
-    width: 100%;
-    height: auto;
-}
 
 #season-archive-section {
     display: none;
@@ -247,17 +264,7 @@ header button:hover {
     visibility: hidden;
 }
 
-footer {
-    background-color: #fff;
-    padding: 1em;
-    position: fixed;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    color: #5263c0;
-}
+
 
 /* CREATIVITY HTML */
 .header-img {

@@ -1,137 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ThatSkySeason</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="tss_favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="tss_favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="tss_favicon/favicon-16x16.png">
-    <!-- <link rel="manifest" href="/site.webmanifest"> -->
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
-  </head>
-  
-  <body>
-    <header>
-      <button id="about-us-btn">about us</button>
-      <button id="meet-team-btn">meet the team</button>
-      <button id="bean-wardrobe-btn">bean's wardrobe</button>
-      <button id="season-archive-btn">season's archives</button>
-    </header>
-    <div class="information" id="about-us-section">
-        <h1>About ThatSkySeason!</h1>
-        <p>This is a <mark>fan-made</mark> project, we do not make any money from this, and we're not affiliated with ThatGameCompany in any way.</p>
-        <p>We're just a bunch of artists who love both the game and the fandom!</p>
-        <p>So, we took inspiration from the original game and have made an online "Season" for everyone to enjoy.</p>
-        <p>We hope you'll enjoy your time here!</p>
-        <img src="assets/bean1kaino.png" alt="Bean 1 drawn by @kainoshu" width="250" height="250">
-    </div>
-    <div class="information" id="meet-the-team-section">
-      <h1>Main Team</h1>
-        <div class="main-team">
-          <div class="main-team-person">
-            <img src="assets/teammembers/kainopfp.gif">
-            <h2><a href="https://www.instagram.com/kainoshu/">@kainoshu</a></h2>
-            <p class="description">Project Lead & Main Illustrator</p>
-          </div>
-          <div class="main-team-person">
-            <img src="assets/teammembers/leepfp.png">
-            <h2><a href="https://www.instagram.com/paper_crows_/">@paper_crows_</a></h2>
-            <p class="description">Project Manager & Technical Editor</p>
-          </div>
-          <div class="main-team-person">
-            <img src="assets/teammembers/florist_in_the_making.jpg">
-            <h2>Schrödinger</h2>
-            <p class="description">CEO of Support & Professional Felis Catus</p>
-          </div>
-        </div>
-        <h2>Main Assistants</h2>
-        <div class="assistants-team" id="meet-assistant-section">
-          <div class="assistants-team-person">
-            <img src="assets/teammembers/miipfp.png">
-            <h2><a href="https://www.instagram.com/miizar_star/">@miizar_star</a></h2>
-            <p class="description">Graphic Designer & Artist</p>
-          </div>
-          <div class="assistants-team-person">
-            <img src="assets/teammembers/parfpfp.png">
-            <h2><a href="https://www.instagram.com/parflu_bonk/">@parflu_bonk</a></h2>
-            <p class="description">Technical Editor & Artist</p>
-          </div>
-          <div class="assistants-team-person">
-            <img src="assets/teammembers/gretapfp.png">
-            <h2><a href="https://www.instagram.com/greta_o.o/">@greta_o.o</a></h2>
-            <p class="description">Colorist & Artist</p>
-          </div>
-          <div class="assistants-team-person">
-            <img src="assets/teammembers/wawapfp.png">
-            <h2><a href="https://www.instagram.com/cluelesswawa/">@cluelesswawa</a></h2>
-            <p class="description">Brainstormer & Artist</p>
-          </div>
-        </div>
-    </div>
-    <div class="information" id="bean-wardrobe-section">
-      <h1>Bean's Wardrobe!</h1>
-      <p>Designed and drawned by @kainoshu ⟡</p>
-        <div class="bean-wardrobe">
-          <div class="bean-wardrobe-item">
-            <img src="assets/beanwardrobe/Moth outfit.png">
-          </div>
-          <div class="bean-wardrobe-item">
-            <img src="assets/beanwardrobe/Skycademy uniform.png">
-          </div>
-          <div class="bean-wardrobe-item">
-            <img src="assets/beanwardrobe/LNY outfit.png">
-          </div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ThatSkySeason</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="tss_favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="tss_favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="tss_favicon/favicon-16x16.png">
+  <!-- <link rel="manifest" href="/site.webmanifest"> -->
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="aboutteam.html"><button id="meet-team-btn">meet the team</button></a>
+    <a href="wardrobe.html"><button>bean's wardrobe</button></a>
+    <button id="season-archive-btn">season's archives</button>
+  </header>
+  <div class="information" id="about-us-section">
+    <h1>About ThatSkySeason!</h1>
+    <p>This is a <mark>fan-made</mark> project, we do not make any money from this, and we're not affiliated with
+      ThatGameCompany in any way.</p>
+    <p>We're just a bunch of artists who love both the game and the fandom!</p>
+    <p>So, we took inspiration from the original game and have made an online "Season" for everyone to enjoy.</p>
+    <p>We hope you'll enjoy your time here!</p>
+    <img src="assets/bean1kaino.png" alt="Bean 1 drawn by @kainoshu" width="250" height="250">
+  </div>
+  <div class="information" id="season-archive-section">
+    <div class="seasons-container">
+      <div class="season" id="season-of-creativity-container">
+        <h1>Season of Creativity</h1>
+        <button id="season-of-creativity-btn"><img src="assets/seasons/creativity/creativity_emblem.png" width="200"
+            height="200"></button>
+        <p id="season-of-creativity-desc">
+          Many artists nowadays struggle to find their path, personal style, and especially the motivation to keep up
+          with their work. Beginner artists may find themselves overwhelmed and lose their passion for art. <br><br>
+          This Season’s purpose is to spark creativity and to challenge artists into creating art, whichever form it may
+          be, exploring different themes and forms, getting out of their comfort zone, and focusing on what art is truly
+          about: being themselves. <br><br>
+          This Season quest giver represents all us artists who are still struggling, who may feel a bit lost in the sea
+          of people and chaos, looking for something that can bring them serenity and happiness, that can help them
+          express who they truly are. <br><br>
+          Season of Creativity was our first big project and we are more than happy with the results. Thank you so much
+          to all the people who joined and believed in it, we couldn't have done it without you.
+          <br><br>
+          <img id="season-of-creativity-img" src="assets/seasons/creativity/creativity_intro.png" width="400">
+          <img id="season-of-creativity-img" src="assets/seasons/creativity/creativity_ultimate_gift.png" width="400">
+        </p>
       </div>
-    </div>
-    <div class="information" id="season-archive-section">
-      <div class="seasons-container">
-        <div class="season" id="season-of-creativity-container">
-          <h1>Season of Creativity</h1>
-          <button id="season-of-creativity-btn"><img src="assets/seasons/creativity/creativity_emblem.png" width="200" height="200"></button>
-          <p id="season-of-creativity-desc">
-            Many artists nowadays struggle to find their path, personal style, and especially the motivation to keep up with their work. Beginner artists may find themselves overwhelmed and lose their passion for art. <br><br>
-            This Season’s purpose is to spark creativity and to challenge artists into creating art, whichever form it may be, exploring different themes and forms, getting out of their comfort zone, and focusing on what art is truly about: being themselves. <br><br>
-            This Season quest giver represents all us artists who are still struggling, who may feel a bit lost in the sea of people and chaos, looking for something that can bring them serenity and happiness, that can help them express who they truly are. <br><br>
-            Season of Creativity was our first big project and we are more than happy with the results. Thank you so much to all the people who joined and believed in it, we couldn't have done it without you.
-            <br><br>
-            <img id="season-of-creativity-img" src="assets/seasons/creativity/creativity_intro.png" width="400">
-            <img id="season-of-creativity-img" src="assets/seasons/creativity/creativity_ultimate_gift.png" width="400">
-          </p>
+      <div class="season" id="season-of-creativity-container">
+        <h1>Artists and Their Spirits</h1>
+        <div class="artist-spirits">
+          <p>@kainoshu's "Wishful Artist"</p>
+          <img src="assets/seasons/creativity/spirits/wishful_artist.png">
         </div>
-        <div class="season" id="season-of-creativity-container">
-          <h1>Artists and Their Spirits</h1>
-          <div class="artist-spirits">
-            <p>@kainoshu's "Wishful Artist"</p>
-            <img src="assets/seasons/creativity/spirits/wishful_artist.png">
-          </div>
-          <div class="artist-spirits">
-            <p>@pessieboi</p>
-            <img>
-          </div>
-          <div class="artist-spirits">
-            <p>@paper_crows_'s "Energetic DIY-er</p>
-            <img src="assets/seasons/creativity/spirits/energetic_diyer.png">
-          </div>
-          <div class="artist-spirits">
-            <p>@duck_soup_pastry's "Aspiring Vehicle Designer"</p>
-            <img src="assets/seasons/creativity/spirits/aspiring_vehicle_designer.png">
-          </div>
-          <div class="artist-spirits">
-            <p>@thatskysibling</p>
-            <img>
-          </div>
-          <div class="artist-spirits">
-            <p>@miizar_star's "Crafty Sculptor"</p>
-            <img src="assets/seasons/creativity/spirits/crafty_sculptor.png">
-          </div>
-          <div class="artist-spirits">
-            <p>@ghostelle.art's "Silent Doll-Maker"</p>
-            <img src="assets/seasons/creativity/spirits/silent_doll_maker.png">
-          </div>
+        <div class="artist-spirits">
+          <p>@pessieboi</p>
+          <img>
+        </div>
+        <div class="artist-spirits">
+          <p>@paper_crows_'s "Energetic DIY-er</p>
+          <img src="assets/seasons/creativity/spirits/energetic_diyer.png">
+        </div>
+        <div class="artist-spirits">
+          <p>@duck_soup_pastry's "Aspiring Vehicle Designer"</p>
+          <img src="assets/seasons/creativity/spirits/aspiring_vehicle_designer.png">
+        </div>
+        <div class="artist-spirits">
+          <p>@thatskysibling</p>
+          <img>
+        </div>
+        <div class="artist-spirits">
+          <p>@miizar_star's "Crafty Sculptor"</p>
+          <img src="assets/seasons/creativity/spirits/crafty_sculptor.png">
+        </div>
+        <div class="artist-spirits">
+          <p>@ghostelle.art's "Silent Doll-Maker"</p>
+          <img src="assets/seasons/creativity/spirits/silent_doll_maker.png">
+        </div>
         <div class="season" id="season-of-discovery-container">
           <h1>Season of Discovery</h1>
           <a><img src="assets/seasons/discovery/discovery_emblem.png" width="200" height="200"></a>
@@ -149,7 +99,8 @@
     <div class="information" id="placeholder-section">
       <p>whoopsies! i'm still making this section, come back another time</p>
     </div>
-    <footer>find us on -> <a href="https://www.instagram.com/thatskyseason/">instagram</a>!</footer>
+    <footer>find us on  \w<a href="https://www.instagram.com/thatskyseason/">instagram</a>!</footer>
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
