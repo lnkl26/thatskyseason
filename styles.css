@@ -16,6 +16,10 @@ p {
     color: #5263c0;
 }
 
+b {
+    color: #5263c0;
+}
+
 mark {
     background-color: rgb(250, 191, 255);
     color: #5263c0;
@@ -30,6 +34,11 @@ a:hover {
     background: -webkit-linear-gradient(#6f82f5, rgb(250, 191, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+li {
+    margin-left: 5vw;
+    color: #5263c0;
 }
 
 header button:hover {
@@ -111,6 +120,78 @@ header button:hover {
 
 .bean-wardrobe-item p {
     margin-top: 1vw;
+}
+
+.information button {
+    border: none;
+    background-color: #ffffff00;
+}
+
+.seasons-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.season p {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    display: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.season button {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.artist-spirits img {
+    width: 350px;
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+}
+
+#emblem {
+    width: 50%;
+}
+
+#creativity-header-img {
+    width: 100%;
+}
+
+.artists-n-spirits img {
+    width: 100%;
+}
+
+#imagetoolong img {
+    width: 50%;
+}
+
+.season-desc {
+    padding: 1.5vw;
+}
+
+.season-desc img {
+    width: 100%;
+}
+
+.system-desc img {
+    width: 50%;
+}
+
+.credits-desc img {
+    margin-top: 5vw;
+    width: 100%;
+}
+
+.profile-n-user img {
+    border-radius: 50%;
+    width: 75%;
 }
 
 .note {
@@ -241,61 +322,12 @@ footer {
     }
 }
 
-
-
-#season-archive-section {
-    display: none;
-}
-
-.seasons-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.season p {
-    padding-left: 2.5em;
-    padding-right: 2.5em;
-    display: none;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.season button {
-    background-color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-.artist-spirits img {
-    width: 350px;
-}
-
-#placeholder-section {
-    visibility: hidden;
-}
-
-
-
 /* CREATIVITY HTML */
-.header-img {
-    display: flex;
-    justify-content: center;
-}
-
-#creativity-header-img {
-    margin-top: 10em;
-    margin-left: 2.5em;
-    margin-right: 2.5em;
-    min-width: 350px;
-    width: auto;
-    border-radius: 35px;
-}
 
 .two-column {
     margin-left: 2.5em;
     margin-right: 2.5em;
-    display: flex;
+    display: none;
     flex-wrap: wrap;
 }
 
