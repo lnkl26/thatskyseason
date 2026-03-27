@@ -109,6 +109,15 @@ header button:hover {
     height: auto;
 }
 
+.bean-wardrobe-item p {
+    margin-top: 1vw;
+}
+
+.note {
+    color: #fff;
+    text-align: center;
+}
+
 footer {
     background-color: #fff;
     padding: 1em;
@@ -145,6 +154,7 @@ footer {
     .information {
         background-color: #fff;
         border-radius: 35px;
+        margin-bottom: 5vw;
         margin-left: 5vw;
         margin-right: 5vw;
         padding: 5vw;
