@@ -259,6 +259,15 @@ footer {
     #imagetoolong img {
         width: 50%;
     }
+
+    video {
+        width: 100%;
+    }
+
+    #s_emblem {
+        width: 100%;
+    }
+
 }
 
 /* styling for desktop devices */
@@ -363,5 +372,15 @@ footer {
 
     .system-desc img {
         width: 15%;
+    }
+
+    #s_emblem {
+        margin-top: 5vw;
+        width: 350px;
+        height: 320px;
+    }
+
+    video {
+        width: 50%;
     }
 }
