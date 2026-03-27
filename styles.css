@@ -251,6 +251,10 @@ footer {
         font-size: 15px;
     }
 
+    .information button {
+        margin-bottom: 5vw;
+    }
+
     .main-team-person img {
         height: 150px;
         width: 150px;
