@@ -1,9 +1,3 @@
-/* .gamja-flower-regular {
-  font-family: "Gamja Flower", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-} */
-
 body {
     background-image: linear-gradient(to bottom right, #6f82f5, rgb(250, 191, 255), #6f82f5);
     background-repeat: no-repeat;
@@ -18,24 +12,13 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-header {
-    background-color: #fff;
-    border-radius: 35px;
-    margin: 2.5em;
-    padding: 1em;
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    gap: 1em;
-    box-shadow: 5px 10px 5px #242c5a8c;
+p {
+    color: #5263c0;
 }
 
-header button {
-    font-family: "Gamja Flower", san-serif;
-    font-size: 15px;
+mark {
+    background-color: rgb(250, 191, 255);
     color: #5263c0;
-    border: none;
-    background-color: #fff;
 }
 
 header button:hover {
@@ -45,24 +28,86 @@ header button:hover {
     background: -webkit-linear-gradient(#6f82f5, rgb(250, 191, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
-.information {
-    background-color: #fff;
-    border-radius: 35px;
-    margin: 2.5em;
-    padding: 2.5em;
-    text-align: center;
+/* styling for mobile devices */
+@media screen and (max-width: 600px) {
+    header {
+        background-color: #fff;
+        border-radius: 35px;
+        margin: 5vw;
+        padding: 2.5vw;
+        display: flex;
+        justify-content: center;
+        box-shadow: 5px 10px 5px #242c5a8c;
+    }
+
+    header button {
+        font-family: "Gamja Flower", san-serif;
+        font-size: 15px;
+        color: #5263c0;
+        border: none;
+        background-color: #ffffff00;
+        line-height: 10px;
+    }
+
+    .information {
+        background-color: #fff;
+        border-radius: 35px;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        padding: 5vw;
+        text-align: center;
+        box-shadow: 5px 10px 5px #242c5a8c;
+    }
+
+    .information h1 {
+        font-size: 25px;
+    }
+
+    .information p {
+        font-size: 15px;
+    }
 }
 
-.information p {
-    color: #5263c0;
-}
+/* styling for desktop devices */
+@media only screen and (min-width: 768px) {
+    header {
+        background-color: #fff;
+        border-radius: 35px;
+        margin: 2.5vw;
+        padding: 1vw;
+        display: flex;
+        justify-content: center;
+        gap: 1vw;
+        box-shadow: 5px 10px 5px #242c5a8c;
+    }
 
-.information mark {
-    background-color: rgb(250, 191, 255);
-    color: #5263c0;
+    header button {
+        font-family: "Gamja Flower", san-serif;
+        font-size: 25px;
+        color: #5263c0;
+        border: none;
+        background-color: #fff;
+    }
+
+    .information {
+        background-color: #fff;
+        border-radius: 35px;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        padding: 2.5vw;
+        text-align: center;
+        box-shadow: 5px 10px 5px #242c5a8c;
+    }
+
+    .information h1 {
+        font-size: 35px;
+    }
+
+    .information p {
+        font-size: 20px;
+    }
 }
 
 #meet-the-team-section {
